@@ -1,0 +1,136 @@
+<html>
+	<head>
+		<title>SmartDoc</title>
+		<meta name='gwt:module' content='com.sheelapps.smartdoc.SmartDoc'/>
+		<link type="text/css" rel="stylesheet" href="default.css">
+		<script language="javascript" src="com.sheelapps.smartdoc.SmartDoc.nocache.js"></script>
+		<script>
+		/*
+		Callback method
+		*/
+		function _onSmartDocLoad ()  {
+		SmartDoc.disableHistorySupport();
+		  SmartDoc.load("testdocs/testdoc.xml","ex1","view");
+		}
+		</script>
+		
+		</head>
+
+	<body>
+		
+
+		<!-- OPTIONAL: include this if you want history support -->
+		<iframe id="__gwt_historyFrame" style="width:0;height:0;border:0"></iframe>
+		<div id="content">
+ <div id="left">
+
+ 			<h2>SmartDoc</h2>
+<p>
+SmartDoc is an outline based document creation and publishing tool. It is designed to make structured, understandable documents easily and quickly. SmartDoc can be useful for story writing, FAQ creation, novel planning, speech-writing, manual writing, software support, biographies, and lesson planning. 
+<br/>
+The basic idea in SmartDoc is that you can include many separate notes within a single file. This means that you do not need to create several files - for most purposes it is enough to create only one file and hold all your notes inside it. With the addition of the tree-type notes, you now have a three-dimensional notebook: many notes within one file and a multi-level, nested pages within a single note.
+</p>
+<h2>SmartDoc Editor and Viewer</h2>
+<div id="ex1" style="height:600px;width:95%"></div>
+<p>
+SmartDoc Web Editor is full WYSIWYG editor to create and publish SmartDoc document. It is easy to share and use SmartDoc, you can embed it on any webpage.
+
+</p>
+<h2>SmartDoc XML Structure</h2>
+<p>SmartDoc documents are stored as XML file. It is very easy to compose and publish SmartDoc file.
+
+<br>
+ 			<pre class="xml" style="color: #000066; border: 1px solid #d0d0d0; background-color: #f0f0f0;"><span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;smartdoc</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;Example 1&quot;</span> <span style="color: #000066;">id</span>=<span style="color: #ff0000;">&quot;Example_1226280853468&quot;</span> <span style="color: #000066;">title</span>=<span style="color: #ff0000;">&quot;Welcome to SmartDoc&quot;</span><span style="font-weight: bold; color: black;">&gt;</span></span>
+	<span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;smarttab</span> <span style="color: #000066;">title</span>=<span style="color: #ff0000;">&quot;First Tab&quot;</span> <span style="color: #000066;">icon</span>=<span style="color: #ff0000;">&quot;icons/docs/file/2.gif&quot;</span><span style="font-weight: bold; color: black;">&gt;</span></span>
+
+		<span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;node</span> <span style="color: #000066;">title</span>=<span style="color: #ff0000;">&quot;Default Node&quot;</span><span style="font-weight: bold; color: black;">&gt;</span></span>
+			<span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;data<span style="font-weight: bold; color: black;">&gt;</span></span></span><span style="color: #339933;">&lt;![CDATA[&lt;P&gt;The formatted text in default node.&lt;/P&gt;]]&gt;</span><span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;/data<span style="font-weight: bold; color: black;">&gt;</span></span></span>
+
+		<span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;/node<span style="font-weight: bold; color: black;">&gt;</span></span></span>
+
+		<span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;node</span> <span style="color: #000066;">title</span>=<span style="color: #ff0000;">&quot;Second Node&quot;</span> <span style="color: #000066;">icon</span>=<span style="color: #ff0000;">&quot;icons/docs/file/1.gif&quot;</span><span style="font-weight: bold; color: black;">&gt;</span></span>
+			<span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;data<span style="font-weight: bold; color: black;">&gt;</span></span></span><span style="color: #339933;">&lt;![CDATA[&lt;P&gt;Second node text.&lt;/P&gt;]]&gt;</span><span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;/data<span style="font-weight: bold; color: black;">&gt;</span></span></span>
+
+			<span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;node</span> <span style="color: #000066;">title</span>=<span style="color: #ff0000;">&quot;Child Node&quot;</span><span style="font-weight: bold; color: black;">&gt;</span></span>
+				<span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;data<span style="font-weight: bold; color: black;">&gt;</span></span></span><span style="color: #339933;">&lt;![CDATA[&lt;P&gt;Child node text.&lt;/P&gt;]]&gt;</span><span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;/data<span style="font-weight: bold; color: black;">&gt;</span></span></span>
+
+			<span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;/node<span style="font-weight: bold; color: black;">&gt;</span></span></span>
+
+		<span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;/node<span style="font-weight: bold; color: black;">&gt;</span></span></span>
+	<span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;/smarttab<span style="font-weight: bold; color: black;">&gt;</span></span></span>
+	<span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;smarttab</span> <span style="color: #000066;">title</span>=<span style="color: #ff0000;">&quot;Second Tab&quot;</span> <span style="color: #000066;">icon</span>=<span style="color: #ff0000;">&quot;icons/docs/file/11.gif&quot;</span><span style="font-weight: bold; color: black;">&gt;</span></span>
+
+		<span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;node</span> <span style="color: #000066;">title</span>=<span style="color: #ff0000;">&quot;Default Node&quot;</span> <span style="color: #000066;">icon</span>=<span style="color: #ff0000;">&quot;icons/docs/multimedia/7.gif&quot;</span><span style="font-weight: bold; color: black;">&gt;</span></span>
+			<span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;data<span style="font-weight: bold; color: black;">&gt;</span></span></span><span style="color: #339933;">&lt;![CDATA[Add text here..]]&gt;</span><span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;/data<span style="font-weight: bold; color: black;">&gt;</span></span></span>
+
+		<span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;/node<span style="font-weight: bold; color: black;">&gt;</span></span></span>
+
+	<span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;/smarttab<span style="font-weight: bold; color: black;">&gt;</span></span></span>
+<span style="color: #009900;"><span style="font-weight: bold; color: black;">&lt;/smartdoc<span style="font-weight: bold; color: black;">&gt;</span></span></span>
+&nbsp;</pre>
+<br>
+</p>
+<h2>SmartDoc Viewer Example</h2>
+<br/>
+<br/>
+	
+		
+		
+		   
+	</div>
+
+<div id="right" >
+			<table summary="Applications" class="sidebox" cellspacing="0">
+					<tr>
+					<td class="sideboxHeader">Applications</td>
+					</tr>
+					<tr>
+					<td class="sideboxBody">
+					<ul>
+					<li><a href="index.php?p=DBExplorer.HomePage&action=view">DB Explorer</a></li>
+
+					<li><a href="index.php?p=PDFTools.HomePage&action=view">PDFTools</a></li>
+					<li><a href="index.php?p=SWTML.HomePage&action=view">SWTML</a></li>
+					<li><a href="index.php?p=S3B2.HomePage&action=view">S3B2</a></li>
+<li><a href="index.php?p=SmartDoc.HomePage&action=view">SmartDoc</a></li>
+					<li><a href="index.php?p=WebBlocks.HomePage&action=view">WebBlocks</a></li>
+					</ul>
+					</td>
+
+					</tr>
+		</table>
+		<table summary="Links" class="sidebox" cellspacing="0">
+					<tr>
+					<td class="sideboxHeader">Links</td>
+					</tr>
+					<tr>
+					<td class="sideboxBody">
+
+					<ul>
+					<li><a href="index.php?p=Blog.HomePage&action=view">Blogs</a></li>
+					<li><a href="index.php?p=Issues.HomePage&action=view">Issues Tracker</a></li>
+					</ul>
+					</td>
+					</tr>
+
+		</table>						
+		
+	</div>
+
+</div>
+
+<div id="footer">
+<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%73%68%65%65%6c@%73%68%65%65%6c%61%70%70%73.%63%6f%6d" >&#x73;&#x68;&#x65;&#x65;&#x6c;&#x40;&#x73;&#x68;&#x65;&#x65;&#x6c;&#x61;&#x70;&#x70;&#x73;&#x2e;&#x63;&#x6f;&#x6d;</a> | <a href="/index.php">Home</a> |
+Page Info [ Format: smarty | Created
+On: 2008-10-03 08:04:16 | Modified on:
+2008-11-11 18:53:48 | skin : smartdoc]
+     | User: Sheel Khanna | <a
+	href="index.php?p=SmartDoc.HomePage&action=view&do=logout">Logout</a>
+
+ 
+</div>
+		
+				
+		
+	</body>
+</html>

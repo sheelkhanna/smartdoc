@@ -1,0 +1,31 @@
+<smartdoc title="Video Encoder Guide" name="video-guide.ttdoc" id="video-guide.ttdoc" >
+	<smarttab title="MPlayer" icon="icons/docs/4.png">
+	 <node title="Encode" icon="icons/docs/16.png">
+		<node title="MPEG4" icon="icons/docs/11.png">
+			<data><![CDATA[
+			<br>
+rem remove conflicting files<br>
+del divx2pass.log<br>
+del frameno.avi<br>
+del test.avi<br>
+<br>
+rem rip audio track (bitrate: 128, gain: 6)<br>
+mencoder -oac mp3lame -lameopts mode=2:cbr:br=128:vol=6&nbsp; -ovc frameno -o frameno.avi &nbsp;<br>
+<br>
+rem video track (pass: 1, bitrate: 700)<br>
+mencoder -sws 2 -oac copy -ovc lavc -lavcopts vcodec=mpeg4:vbitrate=700:vhq:vpass=1 -ffourcc DX50&nbsp; %1<br>
+<br>
+rem video track (pass: 2, bitrate: 700)<br>
+mencoder -sws 2 -oac copy -ovc lavc -lavcopts vcodec=mpeg4:vbitrate=700:vhq:vpass=2&nbsp; -ffourcc DX50 -o %2 %1<br>
+<br>
+del divx2pass.log<br>
+del frameno.avi<br>
+del test.avi<br>
+<br>
+
+			]]></data>
+		</node>
+		</node>
+	</smarttab>
+				
+</smartdoc>

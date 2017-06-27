@@ -1,0 +1,121 @@
+<smartdoc name="test-1.ttdoc" id="test-1.ttdoc1218138929773" title="This is Test Document">
+	<smarttab title="tab 1" icon="icons/docs/file/1.gif">
+		<node title="Default Node">
+			<data><![CDATA[This is some <b>text</b> in node.]]></data>
+		</node>
+		<node title="Second Node" icon="icons/docs/file/2.gif">
+			<data><![CDATA[This is some <b>title</b> in second node.]]></data>
+			<node title="Child Node" icon="icons/docs/file/9.gif">
+				<data><![CDATA[This is some <b>title</b> in child node.]]></data>
+			</node>
+		</node>
+	</smarttab>
+	<smarttab title="tab 2" icon="icons/docs/file/5.gif">
+		<node title="Default Node" icon="icons/docs/file/12.gif">
+			<data><![CDATA[More blah blah title in tab 2.]]></data>
+		</node>
+		<node title="Another Node" icon="icons/docs/file/11.gif">
+			<data><![CDATA[This is some <b>title</b> in second node.]]></data>
+		</node>
+	</smarttab>
+	<smarttab title="tab 3" icon="icons/docs/file/23.gif">
+		<node title="Default Node" icon="icons/docs/people/1.gif">
+			<data><![CDATA[More blah blah title in tab 3.]]></data>
+		</node>
+		<node title="another Node" icon="icons/docs/people/6.gif">
+			<data><![CDATA[More blah blgfffdgf g hdgh hghghg ah title in tab 3.]]></data>
+
+			<node title="child Node" icon="icons/docs/file/19.gif">
+				<data><![CDATA[More blah blah <b>tegfdg fgfgfg</b> gfgfg gfgfab 3. wewv4 twt er teterter
+			trt erter ter tsr tert t tr qert ert rt vt rter ter ter ter ter ter tert ert ret r<h4>fdefeef</h4>rerewerwe
+			erwtrtrr<h2>effreafast</h2>erere er er erwe rwer we rwe rwe rwe re <br> wdeqwqqwere  ]]></data>
+
+				<node title="another Node"
+					icon="icons/docs/file/31.gif">
+					<data><![CDATA[More blah blgfffdgf g hdgh hghghg ah title in tab 3.]]></data>
+				</node>
+
+				<node title="child Node" icon="icons/docs/file/37.gif">
+					<data><![CDATA[gfg gfrg More blah blah <b>tegfdg fgfgfg</b> gfgfg gfgfab 3. wewv4 twt er teterter
+			trt erter ter tsr tert t tr qert ert rt vt rter ter ter ter ter ter tert ert ret r<h4>fdefeef</h4>rerewerwe
+			erwtrtrr<h2>effreafast</h2>erere er er erwe rwer we rwe rwe rwe re <br> wdeqwqqwere  ]]></data>
+			
+			<node title="child11 Node" icon="icons/docs/file/28.gif">
+					<data><![CDATA[jkk  jyjyj More blah blah <b>tegfdg fgfgfg</b> gfgfg gfgfab 3. wewv4 twt er teterter
+			trt erter ter tsr tert t tr qert ert rt vt rter ter ter ter ter ter tert ert ret r<h4>fdefeef</h4>rerewerwe
+			erwtrtrr<h2>effreafast</h2>erere er er erwe rwer we rwe rwe rwe re <br> wdeqwqqwere  ]]></data>
+
+				</node>
+
+				</node>
+
+			<node title="child1 Node" icon="icons/docs/file/12.gif">
+					<data><![CDATA[ hghg hth hghghMore blah blah <b>tegfdg fgfgfg</b> gfgfg gfgfab 3. wewv4 twt er teterter
+			trt erter ter tsr tert t tr qert ert rt vt rter ter ter ter ter ter tert ert ret r<h4>fdefeef</h4>rerewerwe
+			erwtrtrr<h2>effreafast</h2>erere er er erwe rwer we rwe rwe rwe re <br> wdeqwqqwere  ]]></data>
+
+				</node>
+			</node>
+		</node>
+	</smarttab>
+	
+	<smarttab title="tab 4" icon="icons/docs/file/17.gif">
+	<data><![CDATA[
+	Tab with no node.
+	More blah blgfffdgf g hdgh hghghg ah title in tab 3.
+	rttybyyy y y try tytr ytr y yutr uty uu tyu tyu tyututyu
+	tyutyu yuyu utyutyu.
+	]]></data>
+	</smarttab>
+	
+	<smarttab title="tab 5" icon="icons/docs/file/22.gif">
+	<data><![CDATA[
+	Tab with data and node.
+	]]></data>
+	<node title="Information Paradox"
+					icon="icons/docs/file/35.gif">
+					<data><![CDATA[
+					
+					
+					The <b>black hole information paradox</b> results from the combination of <a href="/wiki/Quantum_mechanics" title="Quantum mechanics">quantum mechanics</a> and <a href="/wiki/General_relativity" title="General relativity">general relativity</a>. It suggests that <a href="/wiki/Physical_information" title="Physical information">physical information</a> could "disappear" in a <a href="/wiki/Black_hole" title="Black hole">black hole</a>. It is a contentious subject since it violates a commonly assumed tenet of science—that information cannot be destroyed. <sup id="cite_ref-0" class="reference"><a href="#cite_note-0" title="">[1]</a></sup></p>
+
+<table id="toc" class="toc" summary="Contents">
+<tbody><tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+ <span class="toctoggle">[<a href="javascript:toggleToc()" class="internal" id="togglelink">hide</a>]</span></div>
+<ul>
+<li class="toclevel-1"><a href="#Hawking_radiation"><span class="tocnumber">1</span> <span class="toctext">Hawking radiation</span></a></li>
+<li class="toclevel-1"><a href="#The_equation"><span class="tocnumber">2</span> <span class="toctext">The equation</span></a></li>
+
+<li class="toclevel-1"><a href="#See_also"><span class="tocnumber">3</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1"><a href="#External_links"><span class="tocnumber">5</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</tbody></table>
+<p><a name="Hawking_radiation" id="Hawking_radiation"></a></p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Black_hole_information_paradox&amp;action=edit&amp;section=1" title="Edit section: Hawking radiation">edit</a>]</span> <span class="mw-headline">Hawking radiation</span></h2>
+<p>In 1975, <a href="/wiki/Stephen_Hawking" title="Stephen Hawking">Stephen Hawking</a> and <a href="/wiki/Jacob_Bekenstein" title="Jacob Bekenstein">Jacob Bekenstein</a> showed that black holes should slowly radiate away energy, which poses a problem. From the <a href="/wiki/No_hair_theorem" title="No hair theorem">no hair theorem</a> one would expect the <a href="/wiki/Hawking_radiation" title="Hawking radiation">Hawking radiation</a> to be completely independent of the material entering the black hole. Nevertheless, if the material entering the black hole were a pure <a href="/wiki/Quantum_state" title="Quantum state">quantum state</a>, the transformation of that state into the mixed state of Hawking radiation would destroy information about the original quantum state. This violates <a href="/wiki/Liouville%27s_theorem_%28Hamiltonian%29" title="Liouville's theorem (Hamiltonian)">Liouville's theorem</a> and presents a <a href="/wiki/Physical_paradox" title="Physical paradox">physical paradox</a>.</p>
+
+<p>More precisely, if there is an <a href="/wiki/Quantum_entanglement" title="Quantum entanglement">entangled</a> <a href="/wiki/Pure_state" title="Pure state" class="mw-redirect">pure state</a>, and one part of the entangled system is thrown into the black hole while keeping the other part outside, the result is a mixed state after the <a href="/wiki/Partial_trace" title="Partial trace">partial trace</a> is taken over the interior of the black hole. But since everything within the interior of the black hole will hit the <a href="/wiki/Gravitational_singularity" title="Gravitational singularity">singularity</a> within a fixed time, the part which is traced over partially <i>might</i> "disappear", never to appear again. Of course, it is not really known what goes on at singularities once quantum effects are taken into account, which is why this theory is conjectural and controversial.</p>
+<p>Hawking was convinced, however, because of the simple elegance of the resulting equation which "unified" <a href="/wiki/Thermodynamics" title="Thermodynamics">thermodynamics</a>, <a href="/wiki/Theory_of_relativity" title="Theory of relativity">relativity</a>, <a href="/wiki/Gravity" title="Gravity" class="mw-redirect">gravity</a>, and Hawking's own work on the <a href="/wiki/Big_Bang" title="Big Bang">Big Bang</a>. This annoyed many physicists, notably <a href="/wiki/John_Preskill" title="John Preskill">John Preskill</a>, who in 1997 <a href="/wiki/Thorne-Hawking-Preskill_bet" title="Thorne-Hawking-Preskill bet">bet</a> Hawking and <a href="/wiki/Kip_Thorne" title="Kip Thorne">Kip Thorne</a> that information was not lost in black holes.</p>
+
+<p>There are various ideas about how the paradox is solved. Since the 1997 proposal of the <a href="/wiki/AdS/CFT_correspondence" title="AdS/CFT correspondence">AdS/CFT correspondence</a>, the predominant belief among physicists is that information is preserved and that Hawking radiation is not precisely thermal but receives quantum corrections. Other possibilities include the information being contained in a <a href="/wiki/Planck" title="Planck" class="mw-redirect">Planckian</a> remnant left over at the end of Hawking radiation or a modification of the laws of quantum mechanics to allow for non-unitary time evolution.</p>
+<p>In July 2005, Stephen Hawking published a paper and announced a theory that quantum perturbations of the <a href="/wiki/Event_horizon" title="Event horizon">event horizon</a> could allow information to escape from a black hole, which would resolve the information <a href="/wiki/Paradox" title="Paradox">paradox</a>. His argument assumes the unitarity of the <a href="/wiki/AdS/CFT_correspondence" title="AdS/CFT correspondence">AdS/CFT correspondence</a> which implies that an <a href="/wiki/AdS_black_hole" title="AdS black hole">AdS black hole</a> that is <a href="/wiki/Duality" title="Duality">dual</a> to a <a href="/wiki/Thermal_quantum_field_theory" title="Thermal quantum field theory">thermal</a> <a href="/wiki/Conformal_field_theory" title="Conformal field theory">conformal field theory</a>, is <a href="/wiki/Unitarity_%28physics%29" title="Unitarity (physics)">unitary</a>. When announcing his result, Hawking also conceded the 1997 bet, paying Preskill with a <a href="/wiki/Baseball" title="Baseball">baseball</a> encyclopedia (<a href="/wiki/Special:BookSources/189496327X" class="internal">ISBN 1-894963-27-X</a>) 'from which information can be retrieved at will'. However, Thorne remains unconvinced of Hawking's proof and declined to contribute to the award (see <a href="/wiki/Thorne-Hawking-Preskill_bet" title="Thorne-Hawking-Preskill bet">Thorne-Hawking-Preskill bet</a>).</p>
+
+<p>On <a href="/wiki/October_28" title="October 28">October 28</a>, <a href="/wiki/2006" title="2006">2006</a>, <a href="/wiki/The_Discovery_Channel" title="The Discovery Channel" class="mw-redirect">The Discovery Channel</a> aired a show called "The Hawking Paradox”. The show explained Hawking's conclusion that one must look at the <a href="/wiki/Multiverse" title="Multiverse">multiverse</a> as a whole, and that information lost in black holes is saved in parallel universes where no black holes exist.</p>
+<p><a name="The_equation" id="The_equation"></a></p>
+<h2><span class="editsection">[<a href="/w/index.php?title=Black_hole_information_paradox&amp;action=edit&amp;section=2" title="Edit section: The equation">edit</a>]</span> <span class="mw-headline">The equation</span></h2>
+
+<p>The entropy of a black hole is given by the equation:</p>
+<p><img class="tex" alt="S = \frac{c^{3}kA}{4 \hbar G}" src="http://upload.wikimedia.org/math/c/6/7/c6799ac849137612b913a8c8929c904c.png"></p>
+<p>where S is the <a href="/wiki/Information_entropy" title="Information entropy" class="mw-redirect">entropy</a>, c is the <a href="/wiki/Speed_of_light" title="Speed of light">speed of light</a>, k is <a href="/wiki/Boltzmann%27s_constant" title="Boltzmann's constant" class="mw-redirect">Boltzmann's constant</a>, A is the surface area of the event horizon, ħ ("h-bar") is the reduced <a href="/wiki/Planck%27s_Constant" title="Planck's Constant" class="mw-redirect">Planck's Constant</a> (or Dirac's Constant) and G is the <a href="/wiki/Gravitational_constant" title="Gravitational constant">gravitational constant</a>.</p>
+					
+					]]></data>
+	</node>
+	</smarttab>
+	
+</smartdoc>

@@ -1,0 +1,155 @@
+/*
+The  Main Container
+http://www.tabsgenerator.com/#aD00MDt3PTE0MDtyPTU7Yj0wO2JhY2s9ZmZmZmZmO2JvcmRlcj0yOUM0QkY7Zm9yZTE9RTRFREYwO2ZvcmUyPUJCRTVGMjtkaXI9MDtnZ3Q9MTs=
+
+	light cyan : #CFECEC
+	 light blue : #95B9C7
+ */
+.smartdoc {
+border-color: #95B9C7;
+border-style: solid;
+border-width: 1px 1px 1px 1px;
+}
+
+/* The header section which contains menu and title */
+.smartdoc-header {
+  font: bold 14px Verdana;
+  text-align: center;
+  padding : 2px;
+  background: url("images/shade.gif");
+  
+}
+
+/* The split panel containing tree and node's content */
+.smartdoc-HSPanel {
+ 
+} 
+
+/* The split panel's splitter  */
+.smartdoc-HSPanel .hsplitter {
+   background: #95B9C7;
+   background-color: #95B9C7;
+     border-width                :   1px;
+    /* Pretty much everything */
+    cursor                      :    e-resize;
+
+     /* IE6, IE7, FF2, Safari Win */
+    cursor                      :    col-resize;
+}
+
+/* A top level panel containing Tab and TabBottom */
+.smartdoc-tabpanel {
+}
+
+.smartdoc-tab .gwt-TabBarFirst {
+ display : none;
+}
+
+.smartdoc-tab .gwt-TabBarRest {
+   background : #CFECEC;
+  background: url("images/shade.gif");
+  border-top : 1px solid #95B9C7;
+}
+
+.smartdoc-tab .gwt-TabBarItem {
+ padding: 3px 6px 3px 6px;
+ border: 1px solid #95B9C7;
+ background: #CFECEC;
+ background-color: #CFECEC;
+ cursor: hand;
+ color : #000000;
+ font: bold 14px Verdana;
+ background: url("images/shade.gif");
+  
+}
+.smartdoc-tab .gwt-TabBarItem-selected {
+  padding: 3px 6px 3px 6px;
+  background: #FFFFFF;
+  color : #000000;
+  border-bottom : none;
+  font: bold 16px Verdana;
+  background: url("images/shadeactive.gif");
+}
+
+.smartdoc-tab .gwt-TabPanelBottom {
+height: 100%;
+width: 100%;
+}
+
+/* The tree in a Tab */
+.smartdoc-tree {
+ 
+ }
+.smartdoc-tree .gwt-TreeItem {
+  cursor: hand;
+  cursor: pointer;
+ }
+.smartdoc-tree .gwt-TreeItem-selected {
+  color : #000000;
+  background: #CFECEC;
+  background-color: #CFECEC;
+  font: bold ;
+}
+/* The node content */
+.smartdoc-data {
+	padding : 1px;
+}
+
+.smartdoc-menu  {
+  cursor: hand;
+  cursor: pointer;
+  background: #FFFFFF;
+  border : 1px solid #95B9C7;
+  
+}
+
+.smartdoc-menu .gwt-MenuItem {
+  white-space: nowrap ;
+  font: menu ;
+}
+
+.smartdoc-menu .gwt-MenuItem-disabled {
+  white-space: nowrap ;
+  font: menu ;
+  cursor : default;
+  color : #C1C1C1;
+}
+ 
+.smartdoc-menu .gwt-MenuItem-selected {
+  background-color: #E1E1E1;
+}
+
+
+
+.smartdoc-menu .gwt-MenuItemSeparator .menuSeparatorInner {
+  height: 1px;
+  padding: 0px;
+  border: 0px;
+  border-top: 1px solid #777777;
+  background: #ddddee;
+  overflow: hidden;
+
+}
+
+.smartdoc-dialog , .smartdoc-input-dialog {
+  border :  1px solid #95B9C7;
+  background-color: #FFFFFF;
+}
+
+.smartdoc-dialog .dialogContent, .smartdoc-input-dialog .dialogContent {
+  padding: 0px;
+  height : 100%;
+}
+
+.smartdoc-dialog .Caption , .smartdoc-dialog .dialogTopCenter ,
+.smartdoc-input-dialog .Caption , .smartdoc-input-dialog .dialogTopCenter
+ {
+   padding: 0px;
+  cursor: hand;
+  cursor: pointer;
+  height : 1%;
+  background-color: #CFECEC;
+}
+
+/* End of Default  SmartDoc CSS */
+

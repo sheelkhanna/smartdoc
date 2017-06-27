@@ -1,0 +1,10 @@
+<module>
+	<inherits name="com.google.gwt.core.Core"/>
+	<inherits name="com.google.gwt.user.User"/>
+	<inherits name="com.sheelapps.gwt.gwtutils.gwtutils"/>
+	<inherits name ="com.google.gwt.xml.XML"/>
+	<inherits name="com.google.gwt.i18n.I18N"/>
+	<add-linker name="xs" />
+	<entry-point class="com.sheelapps.smartdoc.client.ApplicationMain"/>
+		
+</module>

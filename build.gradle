@@ -1,0 +1,33 @@
+apply plugin: 'war'
+apply plugin: 'gwt'
+apply plugin: 'eclipse'
+
+repositories {
+  mavenCentral()
+}
+
+buildscript {
+    repositories {
+        jcenter()
+        // Alternatively use:
+        maven {
+            url 'http://dl.bintray.com/steffenschaefer/maven'
+        }
+    }
+    dependencies {
+        classpath 'de.richsource.gradle.plugins:gwt-gradle-plugin:0.6'
+    }
+}
+
+gwt {
+	gwtVersion='2.7.0'
+
+	modules 'com.sheelapps.gwt.gwtutils'
+
+	compiler {
+		strict = true;
+		enableClosureCompiler = true;
+		disableClassMetadata = true;
+		disableCastChecking = true;
+	}
+}

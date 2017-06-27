@@ -1,0 +1,18 @@
+<smartdoc name="Example 1" id="Example_1226280853468" title="Welcome to SmartDoc">
+	<smarttab title="First Tab" icon="/smartdoc/icons/docs/file/2.gif">
+		<node title="Default Node">
+			<data><![CDATA[<P>The formatted text in default node.</P>]]></data>
+		</node>
+		<node title="Second Node" icon="/smartdoc/icons/docs/file/1.gif">
+			<data><![CDATA[<P>Second node text.</P>]]></data>
+			<node title="Child Node">
+				<data><![CDATA[<P>Child node text.</P>]]></data>
+			</node>
+		</node>
+	</smarttab>
+	<smarttab title="Second Tab" icon="/smartdoc/icons/docs/file/11.gif">
+		<node title="Default Node" icon="/smartdoc/icons/docs/multimedia/7.gif">
+			<data><![CDATA[Add text here..]]></data>
+		</node>
+	</smarttab>
+</smartdoc>

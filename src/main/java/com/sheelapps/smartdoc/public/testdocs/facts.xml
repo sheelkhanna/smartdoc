@@ -1,0 +1,48 @@
+<smartdoc name="Facts" id="facts"  title="Interesting Facts and Trivia">
+	<smarttab title="Interesting Facts" icon="icons/docs/4.png">
+	 <node title="Technology" icon="icons/docs/16.png">
+		<node title="Invention Of Zero" icon="icons/docs/11.png">
+			<data><![CDATA[
+			Zero was invented in India by Indian mathematicians dating as early as 5th century. 
+			They widely used it in calculations, astronomy and astrology. Zero was spread by Arabians 
+			to the Europe and there on it was spread all over. Before this, all Europeans used roman 
+			numerical which were difficult to calculate on as they were in the form of Symbols, 
+			lengthy and had limits.
+			]]></data>
+		</node>
+		<node title="Printers Spy On You" icon="icons/docs/23.png">
+			<data><![CDATA[
+			Printer manufacturers print invisible yellow dots on consumer's prints that check to 
+			see if a person is printing counterfeit money. If you call your printer manufacturer and
+			 ask them to "please stop spying on you", they will send secret services to your address 
+			 to find out why you care about your privacy. Upset? You should be. The more people who 
+			 call their printer's manufacturers and make this request, the more likely secret services will refuse to investigate.
+			]]></data>
+		</node>
+	  </node>
+	  <node title="Sports" icon="icons/docs/10.png">
+	  <node title="Farting Contest" icon="icons/docs/33.png">
+			<data><![CDATA[
+			In ancient Japan, public contests were held to see who in a town could 
+			fart the loudest and longest. Winners were awarded many prizes and received great recognition.
+			]]></data>
+		</node>
+	<node title="Golf Ladies" icon="icons/docs/31.png">
+			<data><![CDATA[
+			It is the internet myth that the name of the popular Scottish game Golf stands 
+			for "Gentlemen Only, Ladies Forbidden." The word golf originates form medieval 
+			Scottish and Dutch dialects. Back in a day before the creation of dictionaries,
+			 there was no standardized spelling of any given word. So it is believed that 
+			 word golf originates from Dutch word "kolf" or "kolve" which meant "club."
+			 Later on old Scots dialect transformed the word into "gouf" or "golve ."
+			]]></data>
+		</node>
+	  </node>
+	</smarttab>
+	<smarttab title="About">
+	<data><![CDATA[
+				<h4>Interesting Facts by Sheel Khanna</h4>
+			]]></data>
+	</smarttab>
+				
+</smartdoc>
